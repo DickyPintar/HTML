@@ -1,0 +1,32 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+a {
+      text-decoration: none;
+      color: inherit;
+}
+
+header {
+      background-color: bisque;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+}
+
+.logo {
+      margin-left: 40px;
+}
+
+ul {
+      display: flex;
+      gap: 50px;
+      margin-right: 60px;
+      list-style-type: none;
+}
